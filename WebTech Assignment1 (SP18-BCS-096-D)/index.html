@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>WEB Assignment 1 CRUD</title>
+  <link rel="stylesheet" href="./Mystylesheet.css" />
+  <script src="./jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <h1>
+        CRUD Operations (Html, CSS, Javascript/JQuery)
+    </h1>
+        <table id="maintable" >
+                <tr>
+                    <th>List of Persons</th>
+                    <th>Add / Update Person Form</th>
+                </tr>
+                <tr>
+                    <td> 
+                        <table class="row1">
+                            <thead>
+                                <th>Name</th>
+                                <th>Gender</th>
+                                <th>Age</th>
+                                <th>City</th>
+                                <th>Action</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td>
+                        <form onsubmit="event.preventDefault()" autocomplete="off">
+                            <label for="name"><strong>Name:</strong></label>
+                            <input type="text" id="name" name="name" value="" placeholder="Full Name" required><br><br>
+                            <label for="gender"><strong>Gender:</strong></label> <br>                          
+                            <input type="radio" id="male" name="gender" value="Male" >
+                            <label for="male">Male</label><br>
+                            <input type="radio" id="female" name="gender" value="Female">
+                            <label for="female">Female</label><br><br>
+                            <label for="age"><strong>Age:</strong></label><br>
+                            <input type="number" id="age" name="age" value="" required><br><br>
+                            <label for="city"><strong>City:</strong></label>
+                            <select id="city" name="city">
+                                <option value="Lahore">Lahore</option>
+                                <option value="Karachi">Karachi</option>
+                                <option value="Multan">Multan</option>
+                                <option value="Faisalabad">Faisalabad</option>
+                                <option value="Rawalpindi">Rawalpindi</option>
+                                <option value="Peshawar">Peshawar</option>
+                                <option value="Islamabad">Islamabad</option>
+                                <option value="Quetta">Quetta</option>
+                                <option value="Sialkot">Sialkot</option>
+                                <option value="Gujranwala">Gujranwala</option>
+                                
+                            </select></form><br>
+                        <button class="btn_reset"> <b>Reset</b></button>
+                        <button class="btn_add"> <b>Add</b></button>
+                        <button class="btn_update"> <b>Update</b></button>           
+                   </td>
+                  </tr>
+
+    <p id="p1">Web Technologies Assignment#1 Section:BCS-D</p>
+    <p id="p2">Submitted By: Arslan-ur-Rahman Id#SP18-BCS-096</p>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

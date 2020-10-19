@@ -1,0 +1,146 @@
+body{
+    background-image: url("./abc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100;
+ }
+ 
+ h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+ }
+ 
+ #p1{
+   background-color: rgb(0, 0, 0);
+   font-size: 15px;
+   font-family: sans-serif;
+   color: white;
+   position: fixed;
+   bottom: 0%;
+   left: 0%;
+ }
+ 
+ #p2{
+   background-color: rgb(0, 0, 0);
+   font-size: 15px;
+   font-family: sans-serif;
+   color: white;
+   position: fixed;
+   bottom: 0%;
+   right: 0%;
+ }
+ 
+ #maintable {
+    background-color: rgb(228, 239, 241);
+    border: solid 3px black;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    z-index: 1;
+ 
+  }
+ 
+  #maintable tr:hover {background-color: rgb(221, 240, 223);
+ }
+ 
+  #maintable th {
+    font-family: sans-serif;
+    border: solid 4px black;
+    text-align: left;
+    background-color: #13b5d1;
+    color: white;
+  
+  }
+  #maintable td, #maintable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+    
+  #maintable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  input[type=text], input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+ 
+  .btn_reset{
+    font-family: sans-serif;
+    background-color: #a1e8f5;
+    border: 2px solid rgb(4, 140, 231);
+    border-radius: 4px;
+    padding: 3px;
+    text-align: center;
+    cursor: pointer;
+     width: 30%;
+  }
+  .btn_reset:hover {
+    background-color: #447fff;
+    color: white;
+  }
+  .btn_add{
+    font-family: sans-serif;
+    background-color: #67c27b;
+    border: 2px solid rgb(4, 140, 231);
+    border-radius: 4px;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    cursor: pointer;
+     width: 30%;
+ }
+ .btn_add:hover {
+    background-color: #447fff;
+    color: white;
+  }
+ .btn_update{
+    font-family: sans-serif;
+    background-color: #d36868;
+    border: 2px solid rgb(4, 140, 231);
+    border-radius: 4px;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    cursor: pointer;
+     width: 30%;
+    }
+ 
+    .btn_update:hover {
+       background-color: #447fff;
+       color: white;
+     }
